@@ -1,6 +1,5 @@
-# PRODIGY_WD_01
+# PRODIGY_WD_01 / 🎮 Tic-Tac-Toe Game
 
-# 🎮 Tic-Tac-Toe Game
 
 # 🎯 About This Project
 
