@@ -1,4 +1,5 @@
 # PRODIGY_WD_01
+
 # 🎮 Tic-Tac-Toe Game
 
 # 🎯 About This Project
@@ -19,7 +20,7 @@ This Tic-Tac-Toe Game with AI was developed as part of my internship project usi
 💻 Fully functional in the browser, no installations needed
 
 
-#💡Learned
+# 💡Learned
 
 ✅ How to implement game mechanics and logic in JavaScript
 
