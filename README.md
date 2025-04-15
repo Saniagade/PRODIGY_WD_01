@@ -1,11 +1,12 @@
 # PRODIGY_WD_01
 # 🎮 Tic-Tac-Toe Game
 
-🎯 About This Project
+# 🎯 About This Project
 
 This Tic-Tac-Toe Game with AI was developed as part of my internship project using HTML, CSS, and JavaScript. The main goal was to create an interactive and intelligent game where a player can challenge an unbeatable AI opponent powered by the Minimax algorithm.
 
-🧠 Key Features
+
+# 🧠 Key Features
 
 🎮 Player vs Computer Mode
 
@@ -17,7 +18,8 @@ This Tic-Tac-Toe Game with AI was developed as part of my internship project usi
 
 💻 Fully functional in the browser, no installations needed
 
-💡 What I Learned
+
+#💡Learned
 
 ✅ How to implement game mechanics and logic in JavaScript
 
