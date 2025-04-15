@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px #00000022;
+  }
+  
+  #game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffffcc;
+    border: 3px solid #444;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    border-radius: 10px;
+  }
+  
+  .cell:hover {
+    background-color: #f0f8ff;
+    transform: scale(1.05);
+  }
+  
+  .cell.x {
+    color: #ff4c4c;
+  }
+  
+  .cell.o {
+    color: #4c90ff;
+  }
+  
+  .message {
+    display: none;
+    background-color: #ffffffcc;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .message.show {
+    display: block;
+  }
+  
+  #restartButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #restartButton:hover {
+    background: #555;
+  }
